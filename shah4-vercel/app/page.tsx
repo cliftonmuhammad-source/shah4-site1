@@ -140,9 +140,25 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="video-placeholder">Embed highlight video here</div>
-        </div>
-      </section>
+          <div className="grid gap-6 md:grid-cols-3">
+  <iframe
+    src="https://www.instagram.com/reel/DW7fK1BGIFr/embed"
+    className="w-full aspect-[9/16] rounded-xl"
+    allowFullScreen
+  ></iframe>
+
+  <iframe
+    src="https://www.instagram.com/reel/DWui0xBFN0h/embed"
+    className="w-full aspect-[9/16] rounded-xl"
+    allowFullScreen
+  ></iframe>
+
+  <iframe
+    src="https://www.instagram.com/reel/DXUec0fml8E/embed"
+    className="w-full aspect-[9/16] rounded-xl"
+    allowFullScreen
+  ></iframe>
+</div>      </section>
 
       <section id="contact" className="section section--alt section--last">
         <div className="container two-column contact-grid">
