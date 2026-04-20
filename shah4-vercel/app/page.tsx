@@ -26,13 +26,13 @@ const IG_HANDLE = "@shah4basketball";
                 Contact
               </a>
               <a
-                href="https://www.instagram.com/cliftonb_muhammad/"
-                target="_blank"
-                rel="noreferrer"
-                className="button button--ghost"
-              >
-                Instagram
-              </a>
+  href={IG}
+  target="_blank"
+  rel="noreferrer"
+  className="button button--ghost"
+>
+  Instagram
+</a>
             </div>
           </div>
 
