@@ -1,4 +1,7 @@
 export default function HomePage() {
+  const IG = "https://www.instagram.com/shah4basketball/";
+const IG_REELS = `${IG}reels/`;
+const IG_HANDLE = "@shah4basketball";
   return (
     <main className="site-shell">
       <section className="hero">
@@ -174,22 +177,44 @@ export default function HomePage() {
           </p>
 
           <div className="strengths-grid" style={{ marginTop: "28px" }}>
-            <iframe
-              src="https://www.instagram.com/reel/DW7fK1BGIFr/embed"
-              className="video-placeholder"
-              allowFullScreen
-            />
-            <iframe
-              src="https://www.instagram.com/reel/DWui0xBFN0h/embed"
-              className="video-placeholder"
-              allowFullScreen
-            />
-            <iframe
-              src="https://www.instagram.com/reel/DXUec0fml8E/embed"
-              className="video-placeholder"
-              allowFullScreen
-            />
-          </div>
+  <iframe
+    src="https://www.instagram.com/reel/DW7fK1BGIFr/embed"
+    className="video-placeholder"
+    allowFullScreen
+  />
+
+  <iframe
+    src="https://www.instagram.com/reel/DWui0xBFN0h/embed"
+    className="video-placeholder"
+    allowFullScreen
+  />
+
+  <iframe
+    src="https://www.instagram.com/reel/DXUec0fml8E/embed"
+    className="video-placeholder"
+    allowFullScreen
+  />
+</div>
+
+<div className="button-row button-row--wrap" style={{ marginTop: "20px" }}>
+  <a
+    href={IG}
+    target="_blank"
+    rel="noreferrer"
+    className="button button--solid"
+  >
+    View Full Instagram
+  </a>
+
+  <a
+    href={IG_REELS}
+    target="_blank"
+    rel="noreferrer"
+    className="button button--ghost"
+  >
+    More Highlights
+  </a>
+</div>
         </div>
       </section>
 
